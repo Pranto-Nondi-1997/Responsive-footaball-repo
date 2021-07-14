@@ -2,6 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0 auto;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 
@@ -54,8 +55,11 @@ h1 {
 
 /* main part start */
 
+
+/* section 1 start */
+
 .main-content {
-    margin: 10px;
+    margin: 0 auto;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -83,6 +87,7 @@ h1 {
     top: 15px;
     justify-content: center;
     align-items: center;
+    box-shadow: 10px 10px 40px #888888;
 }
 
 .player p {
@@ -102,4 +107,77 @@ h1 {
 .player h3 {
     position: relative;
     top: 25px;
+}
+
+
+/* section 1 end */
+
+
+/* section 2 start */
+
+.Tropy {}
+
+h2 {
+    font-size: 4em;
+}
+
+
+}
+.Tropy-container {
+    width: 100%;
+}
+.Tropy-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Tropy-content1 {
+    position: relative;
+    left: 80px;
+}
+.Tropy-content1 a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    bottom: 20px;
+}
+.Tropy-content1 a:hover {
+    background-color: rgba(255, 0, 0, 0.76);
+}
+.Tropy-content1 p {
+    text-align: justify;
+}
+.Tropy-pic {
+    position: relative;
+    left: 140px;
+}
+.Tropy-pic img {
+    width: 70%;
+}
+
+/* section 2 end */
+
+/* main part end */
+
+/* footer start here */
+.footer {
+    text-align: center;
+    height: 300px;
+}
+.footer-pic {}
+.footer-pic img {
+    width: 40%;
+}
+.footer-social-link {
+    position: relative;
+    font-size: 3em;
+    top: 5px;
+}
+footer p {
+    font-size: medium;
+}
+.fab {
+    color: rgb(172, 160, 160);
 }
