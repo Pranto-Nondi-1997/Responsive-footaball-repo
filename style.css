@@ -25,7 +25,7 @@ header {}
 
 .half-content1 {
     position: relative;
-    left: 250px;
+    left: 200px;
 }
 
 .live-vedio a {
@@ -45,7 +45,7 @@ h1 {
 
 .half-content2 img {
     position: relative;
-    left: 240px;
+    left: 350px;
     width: 40%;
 }
 
@@ -154,7 +154,7 @@ h2 {
     left: 140px;
 }
 .Tropy-pic img {
-    width: 70%;
+    width: 65%;
 }
 
 /* section 2 end */
