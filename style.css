@@ -77,9 +77,9 @@ h1 {
     position: relative;
     display: flex;
     flex-direction: column;
-    border: 1px solid grey;
+    border: 3px solid whitesmoke;
     width: 330px;
-    height: 474px;
+    height: 500px;
     top: 15px;
     justify-content: center;
     align-items: center;
@@ -94,12 +94,12 @@ h1 {
 
 .player img {
     position: relative;
-    width: 70%;
+    width: 80%;
     border-radius: 5px;
-    top: 40px;
+    top: 10px;
 }
 
 .player h3 {
     position: relative;
-    top: 30px;
+    top: 25px;
 }
