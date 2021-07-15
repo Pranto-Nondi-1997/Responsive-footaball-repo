@@ -1,7 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0 auto;
-    box-sizing: border-box;
     overflow-x: hidden;
 }
 
@@ -72,8 +71,6 @@ h1 {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
-    /* justify-content: center;
-    align-items: center; */
     width: 75%;
 }
 
@@ -121,20 +118,21 @@ h2 {
     font-size: 4em;
 }
 
-
-}
 .Tropy-container {
     width: 100%;
 }
+
 .Tropy-contents {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .Tropy-content1 {
     position: relative;
     left: 80px;
 }
+
 .Tropy-content1 a {
     position: relative;
     text-decoration: none;
@@ -143,41 +141,51 @@ h2 {
     padding: 10px;
     bottom: 20px;
 }
+
 .Tropy-content1 a:hover {
     background-color: rgba(255, 0, 0, 0.76);
 }
+
 .Tropy-content1 p {
     text-align: justify;
 }
+
 .Tropy-pic {
     position: relative;
     left: 140px;
 }
+
 .Tropy-pic img {
     width: 65%;
 }
 
+
 /* section 2 end */
+
 
 /* main part end */
 
+
 /* footer start here */
+
 .footer {
     text-align: center;
     height: 300px;
 }
+
 .footer-pic {}
+
 .footer-pic img {
     width: 40%;
 }
-.footer-social-link {
+
+.social-link img {
     position: relative;
-    font-size: 3em;
-    top: 5px;
+    width: 60px;
+    padding: 10px;
+    color: rgb(211, 197, 197);
 }
+
 footer p {
     font-size: medium;
-}
-.fab {
-    color: rgb(172, 160, 160);
 }
