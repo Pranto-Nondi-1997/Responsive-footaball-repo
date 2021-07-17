@@ -69,9 +69,11 @@ h1 {
 
 .players {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 10px;
     grid-template-columns: repeat(3, 1fr);
-    width: 75%;
+    width: 100%;
+    position: relative;
+    right: 3%;
 }
 
 .player {
@@ -81,7 +83,9 @@ h1 {
     border: 3px solid whitesmoke;
     width: 330px;
     height: 500px;
-    top: 15px;
+    top: 10%;
+    right: 0%;
+    left: 20%;
     justify-content: center;
     align-items: center;
     box-shadow: 10px 10px 40px #888888;

@@ -1,0 +1,58 @@
+@media only screen and (min-width:689px) and (max-width:992px) {
+    /* nav part start */
+    .container {}
+    .half-content1 {
+        position: absolute;
+        left: 5%;
+        top: 1%;
+    }
+    .half-content1 h1 {
+        text-align: justify;
+        width: 50%;
+    }
+    .half-content2 {}
+    .half-content2 img {
+        position: absolute;
+        top: 8%;
+        left: 50%;
+        width: 40%;
+    }
+    /* nav part end */
+    /* section 1 start */
+    .main-content {
+        position: relative;
+        width: 100%;
+        right: 10%;
+    }
+    .players {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        position: relative;
+        right: 0%;
+        left: 0%;
+        width: 100%;
+    }
+    .player {
+        position: relative;
+        left: 25%;
+    }
+    /* section 2 start */
+    .Tropy {}
+    .Tropy-contents {}
+    .Tropy-content1 {}
+    .Tropy-content1 h2 {
+        font-size: 1.5rem;
+        width: 60%;
+    }
+    .Tropy-content1 p {
+        width: 50%;
+    }
+    .Tropy-pic {}
+    .Tropy-pic img {
+        position: relative;
+        right: 20%;
+        width: 80%;
+    }
+    /* section2 end */
+}

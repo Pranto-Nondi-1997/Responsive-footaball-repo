@@ -1,0 +1,104 @@
+@media only screen and (max-width:688px) {
+    /* nav part start */
+    .container {
+        /* position: relative; */
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 650px;
+        padding: 0%;
+        margin: 0%;
+    }
+    .half-content1 {
+        position: absolute;
+        left: 15%;
+        top: 7%;
+        width: 80%;
+        text-align: center;
+        /* background-color: yellow; */
+    }
+    .half-content1 h1 {
+        position: absolute;
+        left: 18%;
+        top: 50%;
+        font-size: 1.9rem;
+        text-align: left;
+    }
+    .live-vedio a {
+        width: 35%;
+        top: 50%;
+        left: 15%;
+        text-align: center;
+    }
+    .live-vedio {
+        position: relative;
+    }
+    .half-content2 {}
+    .half-content2 img {
+        position: absolute;
+        bottom: 5%;
+        left: 20%;
+        width: 70%;
+    }
+    /* nav part end */
+    /* main part start */
+    /* section-1 start  */
+    .main-content {
+        position: absolute;
+        left: 5%;
+        top: 110%;
+    }
+    .players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player {}
+    /* section 1 end */
+    /* section 2 start */
+    .Tropy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Tropy-contents {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: 3%;
+        width: 100%;
+        padding-left: 3%;
+    }
+    .Tropy-content1 {
+        padding: 10px;
+    }
+    .Tropy-content1 h2 {
+        font-size: 1.7rem;
+        width: 50%;
+    }
+    .Tropy-content1 p {
+        text-align: justify;
+        width: 50%;
+    }
+    .Tropy-content1 a {}
+    .Tropy-pic {}
+    .Tropy-pic img {
+        width: 80%;
+        border: 3px solid black;
+        position: relative;
+        bottom: 10%;
+        right: 25%;
+    }
+    /* section 2 end */
+    /* footer start */
+    footer {
+        position: absolute;
+        top: 970%;
+    }
+    .footer {}
+    .footer-pic {}
+    .footer-pic img {}
+    .social-link a {}
+    .social-link img {}
+    footer p {}
+}
